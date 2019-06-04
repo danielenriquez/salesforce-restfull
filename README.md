@@ -14,7 +14,7 @@ Here you can download all project and install it on your local PC : https://gith
 </br>
 ![sf-api-WSDL](https://user-images.githubusercontent.com/8003697/58886828-71b31680-86dc-11e9-89f5-bfd82fe5174f.jpg)
 </br>
-"Salesforce_model.php"</br>
+On <b>"Salesforce_model.php"</b> you can find:</br>
 define("USERNAME", "salesforce@email.com");</br>
 define("PASSWORD", "paswword");</br>
 define("SECURITY_TOKEN", "salesforce-token-here");</br>
