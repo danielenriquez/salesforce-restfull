@@ -2,6 +2,7 @@
 <b>Using CodeIgniter Rest Server and SalesForce Toolkit for PHP</b>
 
 Check this tutorial to understand how to install and how to work with RESTful Services in CodeIgniter: https://code.tutsplus.com/tutorials/working-with-restful-services-in-codeigniter--net-8814 
+
 Here you can download all project and install it on your local PC : https://github.com/chriskacerguis/codeigniter-restserver
 
 <b>How to integrate SalesForce Toolkit for PHP on CodeIgniter Rest Server</b>
@@ -23,4 +24,4 @@ $route['leads']['post'] = 'leads/index';</br>
 $route['leads/(:num)']['put'] = 'leads/index/$1';</br>
 $route['leads/(:num)']['delete'] = 'leads/index/$1';</br>
 
-5- To test the functionality use the fallowint URL: http://localhost/sforce/Leads service has to retive the first 100 lead records
+5- To test the functionality use the fallowint URL: http://localhost/sforce/Leads service has to retive the first 10000 lead records
