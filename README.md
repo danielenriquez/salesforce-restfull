@@ -9,8 +9,9 @@ Here you can download all project and install it on your local PC : https://gith
 
 1- Copy "salesforce_api" under the "aplication" folder.</br></br>
 2- Copy "sforce" folder under "controller" folder. In "sforce" folder we have the Leads.php class with Get/Create/Find/Post/Update/Delete method to manipulate SalesForce <b>Lead</b> object.</br></br>
-3- Copy "Salesforce_model.php" under "model" folder. In this php class we have the SalesForce Credentias (username,password adn token). Also we refer the WSDL xml SalesForce API schema hosted on "salesforce_api/PartnerWSDL.xml".
-</br></br>
+3- Copy "Salesforce_model.php" under "model" folder. In this php class we have the SalesForce Credentias (username,password adn token). Also we refer the WSDL xml SalesForce API schema hosted on "salesforce_api/PartnerWSDL.xml".</br>
+![sf-api](https://user-images.githubusercontent.com/8003697/58886501-eafe3980-86db-11e9-9eca-316c20cc0fc9.jpg)
+</br>
 define("USERNAME", "salesforce@email.com");</br>
 define("PASSWORD", "paswword");</br>
 define("SECURITY_TOKEN", "salesforce-token-here");</br>
