@@ -8,7 +8,7 @@ Here you can download all project and install it on your local PC : https://gith
 <b>How to integrate SalesForce Toolkit for PHP on CodeIgniter Rest Server</b>
 
 1- Copy "salesforce_api" under the "aplication" folder.</br></br>
-2- Copy "sforce" folder under "controller" folder. In "sforce" folder we have the Leads.php class with Get/Create/Find/Post/Update/Delete method to manipulate SalesForce <b>Lead</b> object.</br></br>
+2- Copy "sforce" folder under "controller" folder. In "controller/sforce" folder we have the Leads.php class with Get/Create/Find/Post/Update/Delete method to manipulate SalesForce <b>Lead</b> object. Notice that on class constructor we load "salesforce_model" class to stablish SalesForce connection</br></br>
 3- Copy "Salesforce_model.php" under "model" folder. In this php class we have the SalesForce Credentias (username,password adn token). Also we refer the WSDL xml SalesForce API schema hosted on "salesforce_api/PartnerWSDL.xml".</br>
 ![sf-api](https://user-images.githubusercontent.com/8003697/58886501-eafe3980-86db-11e9-9eca-316c20cc0fc9.jpg)
 </br>
@@ -29,4 +29,6 @@ $route['leads']['post'] = 'leads/index';</br>
 $route['leads/(:num)']['put'] = 'leads/index/$1';</br>
 $route['leads/(:num)']['delete'] = 'leads/index/$1';</br>
 
-5- To test the functionality use the fallowint URL: http://localhost/sforce/Leads service has to retive the first 10000 lead records
+5- To test the functionality use the fallowing URL: http://localhost/sforce/Leads service has to retive the first 10000 lead records
+
+<b>Note:</b> PHP SoapClient module is mandatory to run this project on your server.
