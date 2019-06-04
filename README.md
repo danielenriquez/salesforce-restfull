@@ -20,9 +20,9 @@ define("PASSWORD", "paswword");</br>
 define("SECURITY_TOKEN", "salesforce-token-here");</br>
 Path to the WSDL xml generared by SalesForce API (Setup/API)</br>
 $this->mySforceConnection->createConnection(APPPATH ."salesforce_api/PartnerWSDL.xml");</br></br>
-4- Check <b>"route.php"</b> class under <b>"application/config"</b> folder to review the routing rules.</br>
+4- Check <b>"routes.php"</b> class under <b>"application/config"</b> folder to review the routing rules.</br>
 
-<b>Route for Salesforce</b></br>
+<b>Route for SalesForce extension</b></br>
 $route['leads']['get'] = 'leads/index';</br>
 $route['leads/(:num)']['get'] = 'leads/find/$1';</br>
 $route['leads']['post'] = 'leads/index';</br>
