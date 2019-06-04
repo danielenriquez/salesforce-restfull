@@ -5,8 +5,8 @@ Check this tutorial to install and understand how to work with RESTful Services 
 
 Here you can download all project and install it on your local PC : https://github.com/chriskacerguis/codeigniter-restserver
 
-<b>How to integrate SalesForce Toolkit for PHP on CodeIgniter Rest Server</b>
-###Once you are running Codeigniter Rest server on your local machine or server:</b>
+<b>How to integrate SalesForce Toolkit for PHP on CodeIgniter Rest Server</b></br>
+### Once you are running Codeigniter Rest server on your local machine or server:</b>
 1- Copy "salesforce_api" under the "aplication" folder.</br></br>
 2- Copy "sforce" folder under "controller" folder. In "controller/sforce" folder we have the Leads.php class with Get/Create/Find/Post/Update/Delete method to manipulate SalesForce <b>Lead</b> object. Notice that on class constructor we load "salesforce_model" class to stablish SalesForce connection</br></br>
 3- Copy "Salesforce_model.php" under "model" folder. In this php class we have the SalesForce Credentias (username,password adn token). Also we refer the WSDL xml SalesForce API schema hosted on <b>"salesforce_api/PartnerWSDL.xml"</b>. You can edit this file and replace it with your cxml content.</br>
